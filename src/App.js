@@ -1,5 +1,4 @@
 import { BrowserRouter, Link } from "react-router-dom";
-
 import { Router } from "./router/Router";
 import "./styles.css";
 
@@ -13,6 +12,7 @@ export default function App() {
         <br />
         <Link to="/page2">Page2</Link>
       </div>
+      {/* ページ遷移で書き換わるコンポーネント */}
       <Router />
     </BrowserRouter>
   );

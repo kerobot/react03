@@ -12,7 +12,7 @@ export const Page1 = () => {
   return (
     <div>
       <h1>Page1ページです</h1>
-      {/* パラメータを指定したページ遷移 */}
+      {/* state を指定したページ遷移 */}
       <Link to={{pathname: "/page1/detailA", state: arr}}>DetailA</Link>
       <br />
       {/* 通常のページ遷移 */}
